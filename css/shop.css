@@ -1,0 +1,24 @@
+.box_item {
+    width: 300px;
+    height: 400px;
+}
+
+.box_item:hover {
+    cursor: pointer;
+}
+
+.box_item > img {
+    width: 300px;
+    height: 300px;
+}
+
+.box_item > h2 {
+    letter-spacing: 2px;
+    padding-top: 10px;
+    height: 40px;
+}
+
+.box_item > p {
+    height: 50px;
+    font-size: 20px;
+}
