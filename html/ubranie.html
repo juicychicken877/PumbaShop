@@ -8,36 +8,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400&display=swap" rel="stylesheet">
     <!--css-->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
     <title>Pumba</title>
 </head>
-<body>
+<body onload="setItem()">
     <nav>
-        <a href="index.html">
+        <a href="../index.html">
             <li>
                 <span>Start</span>
                 <div class="li_underline"></div>
             </li>
         </a>
-        <a href="html/koszulki.html">
+        <a href="koszulki.html">
             <li>
                 <span>Koszulki</span>
                 <div class="li_underline"></div>
             </li>
         </a>
-        <a href="html/spodnie.html">
+        <a href="spodnie.html">
             <li>
                 <span>Spodnie</span>
                 <div class="li_underline"></div>
             </li>
         </a>
-        <a href="html/bluzy.html">
+        <a href="bluzy.html">
             <li>
                 <span>Bluzy</span>
                 <div class="li_underline"></div>
             </li>
         </a>
-        <a href="html/galeria.html">
+        <a href="galeria.html">
             <li>
                 <span>Galeria</span>
                 <div class="li_underline"></div>
@@ -46,12 +46,16 @@
     </nav>
 
     <div class="landing_header">
-        <img src="../img/space.jpg">;
-        <h1>STRONA GLOWNA</h1>
+        <img src="../img/space.jpg">
+        <h1>KUP TERAZ</h1>
     </div>
 
     <main>
-    
+        <img src="" id="img" name="image">
+        <h2 id="name"></h2>
+        <p id="price"></p>
     </main>
+
+    <script src="../js/item.js"></script>
 </body>
 </html>

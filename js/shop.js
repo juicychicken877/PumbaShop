@@ -1,5 +1,7 @@
 import { CLOTHES } from './data.js';
 
+var clickedItem;
+
 // men clothes
 const MEN_TSHIRTS = CLOTHES.tshirts.men;
 const MEN_TROUSERS = CLOTHES.trousers.men;
@@ -31,7 +33,20 @@ function wyswietlUbrania(ktore) {
     })
 }
 
+function setClickedItem(element) {
+    clickedItem = element;
+
+    localStorage.setItem("name", element.nazwa);
+    localStorage.setItem('img', element.zdjecie);
+    localStorage.setItem("price", element.cena);
+}
+
 function createItemBox(element) {
+    let link = document.createElement('a');
+    link.href = 'ubranie.html';
+
+    link.addEventListener('click', () => setClickedItem(element));
+
     let div = document.createElement('div');
     div.classList.add('box_item');
 
@@ -48,7 +63,9 @@ function createItemBox(element) {
     div.appendChild(header);
     div.appendChild(cena);
 
-    return div;
+    link.appendChild(div);
+
+    return link;
 }
 
 // make global variable for HTML document to invoke function
