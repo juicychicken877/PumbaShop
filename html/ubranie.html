@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400&display=swap" rel="stylesheet">
     <!--css-->
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/item.css">
     <title>Pumba</title>
 </head>
 <body onload="setItem()">
@@ -51,10 +52,55 @@
     </div>
 
     <main>
-        <img src="" id="img" name="image">
-        <h2 id="name"></h2>
-        <p id="price"></p>
+        <div class="item_check">
+            <section>
+                <h2 id="name"></h2>
+                <p id="price"></p>
+                <p>KOLOR</p>
+                <div class="colors">
+                    <div class="color green"></div>
+                    <div class="color white"></div>
+                    <div class="color black"></div>
+                    <div class="color pink"></div>
+                </div>
+                <p>ROZMIAR</p>
+                <div class="colors">
+                    <div class="color">XL</div>
+                    <div class="color">L</div>
+                    <div class="color">M</div>
+                    <div class="color">S</div>
+                    <div class="color">XS</div>
+                </div>
+                <div style="clear: both"></div>
+                <button>KUP TERAZ</button>
+            </section>
+            <img src="" id="img" name="image">
+        </div>
+        <div class="two_small">
+            <div class="small">
+                <h2>SZCZEGOLY PRODUKTU</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique mollis lorem, nec convallis sem consequat quis. Donec mauris quam, hendrerit id pellentesque a, consectetur id lorem. Ut vitae turpis vitae mauris facilisis dignissim. Nullam odio nisi, viverra a venenatis tempus, interdum lobortis dui.
+                </p>
+            </div>
+            <div class="small">
+                <h2>KOD DOSTAWY</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique mollis lorem, nec convallis sem consequat quis. Donec mauris quam, hendrerit id pellentesque a, consectetur id lorem. Ut vitae turpis vitae mauris facilisis dignissim. Nullam odio nisi, viverra a venenatis tempus, interdum lobortis dui.
+                </p>
+            </div>
+        </div>
+        <div class="one_wide">
+            <h2>OPIS PRODUKTU</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique mollis lorem, nec convallis sem consequat quis. Donec mauris quam, hendrerit id pellentesque a, consectetur id lorem. Ut vitae turpis vitae mauris facilisis dignissim. Nullam odio nisi, viverra a venenatis tempus, interdum lobortis dui. Morbi et nulla sit amet justo faucibus vulputate ut a nulla. Nulla rutrum eros nec gravida aliquam. Ut in felis dignissim, ultrices sapien sed, luctus ante. Maecenas eu orci condimentum, sagittis lorem id, scelerisque velit.
+            </p>
+        </div>
     </main>
+
+    <footer>
+        <img src="../img/space.jpg">
+    </footer>
 
     <script src="../js/item.js"></script>
 </body>

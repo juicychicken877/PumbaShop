@@ -1,0 +1,110 @@
+.item_check {
+    margin-top: 50px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item_check > img {
+    width: 500px;
+    height: 500px;
+}
+
+.item_check > section {
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+#name {
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+#price {
+    font-size: 32px;
+    color: #2c6627;
+    font-weight: 900;
+    margin-top: 25px;
+}
+
+.item_check > section > p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.item_check > section > select {
+    width: 85px;
+}
+
+.item_check > section > button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 425px;
+    height: 100px;
+    background-color: #2c6627;    
+    border: 3px solid black;
+    text-align: center;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.colors {
+    display: flex;
+    margin-top: 10px;
+}
+
+.color {
+    width: 40px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 24px;
+    height: 35px;
+    cursor: pointer;
+    border: 2px solid black;
+    margin-right: 5px;
+}
+
+.green {
+    background-color: green;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.two_small {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+
+.small {
+    width: 45%;
+    height: 200px;
+    border-top: 3px solid black;
+}
+
+.small > h2, .one_wide > h2 {
+    margin-top: 10px;
+}
+
+.small > p, .one_wide > p {
+    margin-top: 10px;
+}
+
+.one_wide {
+    margin-top: 20px;
+    border-top: 3px solid black;
+}
+
