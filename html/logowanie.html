@@ -9,11 +9,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400&display=swap" rel="stylesheet">
     <!--css-->
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/shop.css">
     <link rel="stylesheet" href="../fontello/css/fontello.css">
+    <link rel="stylesheet" href="../css/form.css">
     <title>Pumba</title>
 </head>
-<body onload="wyswietlUbrania('Bluzy')">
+<body>
     <nav>
         <a href="../index.html">
             <li>
@@ -47,30 +47,23 @@
         </a>
     </nav>
 
-    <div class="landing_header">
-        <img src="../img/space.jpg">
-        <h1>BLUZY</h1>
-    </div>
-
     <a href="logowanie.html" class="log-link">
         <div class="log">
             <span class="icon-user-circle-o"></span>
         </div>
     </a>
 
+    <div class="landing_header">
+        <img src="../img/space.jpg">;
+        <h1>LOGOWANIE</h1>
+    </div>
+
     <main>
-        <h1>MEN</h1>
-        <section id="men_clothes">
-
-        </section>
-        <h1>WOMEN</h1>
-        <section id="women_clothes">
-
-        </section>
+        <form action="#">
+            <input type="text" placeholder="Login" value="" name="login">
+            <input type="password" placeholder="Haslo" value="" name="haslo">
+            <button type="submit">ZALOGUJ</button>
+        </form>
     </main>
-
-    <!--scripts-->
-    <script src="../js/data.js" type="module"></script>
-    <script src="../js/shop.js" type="module"></script>
 </body>
 </html>

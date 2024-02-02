@@ -1,0 +1,24 @@
+main > form {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+main > form > input {
+    width: 225px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+main > form > button {
+    width: 230px;
+    padding: 5px;
+    height: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+}
